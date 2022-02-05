@@ -1,0 +1,22 @@
+you=[]
+
+question_1 = 'Are you learning? (y/n) '
+question_2 = 'Are you earning? (y/n) '
+
+user = input(question_1)
+if user == 'y':
+	you.append('earn')
+
+user = input(question_2)
+if user == 'y':
+	you.append('learn')
+
+if you:
+	for answer in you:
+		if you == 'earn' or 'learn':
+			print("That's good!")
+else:
+	print("Move on, don't waste your life!")
+
+#Expressed by Rolands Ivdra
+#Quote by Garry Tan
